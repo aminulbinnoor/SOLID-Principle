@@ -1,4 +1,4 @@
-## SOLID-Principle
+# SOLID-Principle
 
 ## SOLID is a set of five design principles that promote software design that is robust, maintainable, and scalable. SOLID stands for:
 
@@ -11,7 +11,7 @@ Dependency Inversion Principle (DIP)
 ```
 Each principle serves as a guideline to promote good design practices and help ensure that code is scalable, maintainable, and easy to understand. In this article, we’ll explore each of the SOLID principles in depth and how they can be applied to Laravel.
 
-Single Responsibility Principle (SRP)
+## Single Responsibility Principle (SRP)
 The SRP states that a class should have only one reason to change. In other words, a class should only have one responsibility and be focused on doing one thing well. This principle helps to reduce the complexity of code and make it easier to maintain.
 
 In Laravel, the SRP can be applied by creating smaller, focused classes that handle specific tasks. For example, rather than having a single class that handles user authentication and authorization, it would be better to have separate classes for authentication and authorization.
@@ -43,7 +43,7 @@ class UserLogin {
 
 ```
 
-#  Open/Closed Principle (OCP)
+##  Open/Closed Principle (OCP)
 The OCP states that a class should be open for extension, but closed for modification. This means that classes should be designed in a way that allows new functionality to be added without changing the existing code.
 
 In Laravel, this principle can be applied by using interfaces and abstract classes. By defining an interface for a specific task, it is possible to create multiple implementations of that task, each with its own unique functionality.
